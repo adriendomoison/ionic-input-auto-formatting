@@ -1,0 +1,18 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Ionic Input
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+
+  <ion-item>
+    <ion-label color="primary">Enter a date</ion-label>
+    <ion-input type="text" name="date" placeholder="MM / YY" maxlength="7" [(ngModel)]="date"
+               formatDateDirective></ion-input>
+  </ion-item>
+
+
+</ion-content>
